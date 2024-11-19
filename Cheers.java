@@ -15,7 +15,7 @@ public class Cheers {
                 article = "a";
             }
 
-           System.out.println("DEBUG: article = '" + article + "', letter = '" + letter + "'");
+           System.out.println("Give me " + article + " " + letter + ": " + letter + "!");
         }
 
         System.out.println("What does that spell?");
