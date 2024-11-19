@@ -14,7 +14,7 @@ public class Cheers {
             } else {
                 article = "a";
             }
-
+           String space = article.equals("a") ? "  " : " ";
            System.out.println("Give me " + article + " " + letter + ": " + letter + "!");
         }
 
