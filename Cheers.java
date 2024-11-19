@@ -14,8 +14,12 @@ public class Cheers {
             } else {
                 article = "a";
             }
-           String space = article.equals("a") ? "  " : " ";
-           System.out.println("Give me " + article + " " + letter + ": " + letter + "!");
+
+            if (article.equals("a")) {
+                System.out.println("Give me " + article + "  " + letter + ": " + letter + "!");
+            } else {
+                System.out.println("Give me " + article + " " + letter + ": " + letter + "!");
+            }
         }
 
         System.out.println("What does that spell?");
