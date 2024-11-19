@@ -4,7 +4,6 @@ public class CalcPi {
         double sum = 0.0; 
 
         for (int i = 0; i < terms; i++) {
-            (-1)^i / (2i + 1)
             double term = Math.pow(-1, i) / (2 * i + 1);
             sum += term; 
         }
