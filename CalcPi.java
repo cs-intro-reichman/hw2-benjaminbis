@@ -5,7 +5,7 @@ public class CalcPi {
 
         for (int i = 0; i < terms; i++) {
             if (i % 2 == 0) {
-                sum += 1.0 / (2 * i + 1); 
+                sum += 1.0 / (2 * i + 1);
             } else {
                 sum -= 1.0 / (2 * i + 1);
             }
@@ -13,9 +13,8 @@ public class CalcPi {
 
         double piApprox = 4 * sum;
 
-        System.out.printf("pi according to Java: %.15f\n", Math.PI); 
-        System.out.printf("pi, approximated: %.15f\n", piApprox); 
+        // Corrected formatting to match expected output
+        System.out.printf("pi according to Java: %.15f\n", Math.PI);
+        System.out.printf("pi, approximated: %5.1f\n", piApprox);
     }
 }
-
-
