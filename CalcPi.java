@@ -7,7 +7,7 @@ public class CalcPi {
             if (i % 2 == 0) {
                 sum += 1.0 / (2 * i + 1); 
             } else {
-                sum -= 1.0 / (2 * i + 1); /
+                sum -= 1.0 / (2 * i + 1);
             }
         }
 
@@ -17,3 +17,5 @@ public class CalcPi {
         System.out.printf("pi, approximated: %.15f\n", piApprox); 
     }
 }
+
+
