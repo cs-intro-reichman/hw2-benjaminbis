@@ -13,8 +13,7 @@ public class CalcPi {
 
         double piApprox = 4 * sum;
 
-        // Corrected formatting to match expected output
         System.out.printf("pi according to Java: %.15f\n", Math.PI);
-        System.out.printf("pi, approximated: %5.1f\n", piApprox);
+        System.out.printf("pi, approximated: %20.14f\n", piApprox);
     }
 }
