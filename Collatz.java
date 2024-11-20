@@ -5,7 +5,7 @@ public class Collatz {
 
         for (int seed = 1; seed <= maxSeed; seed++) {
             int n = seed;
-            int steps = 0;
+            int steps = 1;
 
             if (mode.equals("v")) {
                 System.out.print(n);
@@ -18,7 +18,6 @@ public class Collatz {
                     n = 3 * n + 1;
                 }
                 steps++;
-
                 if (mode.equals("v")) {
                     System.out.print(" " + n);
                 }
@@ -29,8 +28,6 @@ public class Collatz {
             }
         }
 
-        if (mode.equals("c")) {
-            System.out.println("Every one of the first " + maxSeed + " hailstone sequences reached 1.");
-        }
+        System.out.println("Every one of the first " + maxSeed + " hailstone sequences reached 1.");
     }
 }
